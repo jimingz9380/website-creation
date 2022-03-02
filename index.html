@@ -12,10 +12,12 @@
             body {
                 background-img:url("pictures/water.gif");
                 background-color: #cccccc;
-                font-size: 15px;
+                font-size: 20px;
             }
 
-
+            .h-font{
+                font-size: 50px;
+            }
 
             .color{
                 background-color:pink;
@@ -43,26 +45,70 @@
         <title>Title</title>
     </head>
     <body>
-        
-        
-        <div class="container-fluid">
-            <div class="row">
-                <div class="color col-md-12 col-lg-9">
-                    <h1> BBNEWS: discover of NEW SPECIE "Merbear"</h1>
-                </div>
-                
-                 <div class="color col-md-12 col-lg-3">
-                    <h1> Home </h1>
-                </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Disabled</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
             </div>
+          </div>
+        </nav>
+        
+        <div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="flipper.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="picture/water.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="food.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-
         <div class="container">
             <div class="row">
                 <h1> Intro </h1>
             </div>
         </div>
-
+        
         <div class="container">
             <div class="row">
                 <div class=" colors col-xl-6 col-md-12">
@@ -84,7 +130,7 @@
 
         <div class="container">
             <div class="row">
-                <h1> Body</h1>
+                <h1 class="h-font"> Etymology (Origin)</h1>
             </div>
         </div>
 
@@ -92,27 +138,60 @@
         <div class=" margins container">
             <div class="row">
                 <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
+                    The Merbear have been living in what was the Arctic now became part of the Arctic Ocean for about 100 years.
+                    Just like their predecessor, Ursus maritimus(polar bears) who had also adapted to the cold temperature, the Merbear 
+                    had adapted to the abundance of water but lack of land. The reason for this lack of land would be when there was extreme 
+                    heating that had happened 250 years ago over at the arctic which caused the majority of the glaciers to melt down and made 
+                    the polar bears have a competition between each other over who can get to their prey first. After news was spread about this 
+                    competition, scientists all over the world had made attempts to preserve this species by mutating them with some aspects of 
+                    sea animals. This lead to a gradual change in these polar bears which from natural selection change them to what you see as a 
+                    Merbear.
 
 
                 </div>
-                <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
 
-                    Sed vitae porttitor lectus, at blandit ex. Etiam eu odio vel urna feugiat vehicula. Vestibulum ut arcu sagittis, fringilla dui nec, pellentesque eros. Nunc efficitur nibh ornare nisl porta,
-                    vel imperdiet turpis varius. Integer viverra, nisi sit amet commodo tristique, enim ex varius ligula, quis facilisis risus eros ac ipsum. Suspendisse bibendum consectetur mi, a rhoncus quam sodales
-                    quis. Sed ullamcorper lectus sit amet massa facilisis elementum.
+
+                </div>
+            </div>
+        </div>
+        
+         <div class="container">
+            <div class="row">
+                <h1 class="h-font"> History and Evolution</h1>
+            </div>
+        </div>
+        
+        <div class=" margin container">
+            <div class="row">
+                <div class=" colors col">
+                    <h1> Environment </h1>
+                    <p>After the Polar Bear slowly loses its habitat (Arctic) it starts to change and take in Natural Selection, 
+                    the only environment it can try to live in is the ocean. Now it still lives in the Antarctic, but mostly in the ocean
+                    where there is only water and barely any icey land anymore.
+                    </p>
+                    <img class="auto" src="pictures/water.png">
+
                 </div>
                 <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
+                    <h1> Ecosystem </h1>
+                    <p> Before the evolution of the Polar Bear it was on the top of the food chain in the Antarctica region. Then due 
+                    to the Arctic melting the species of Polar Bear evolved into the new species known as “Merbears'' which places itself
+                    in the same level in the ecosystem. Because of the adaptation, it’s one of the most powerful living animals in the Antarctic 
+                    region.
+                    </p>
+                    <br>
+                     <img class="auto" src="pictures/flippers.jpeg">
+                </div>
+                
+                <div class=" colors col">
+                    <h1> Adaptation </h1>
+                    Before the evolution of the Polar Bear it was on the top of the food chain in the Antarctica region. 
+                    Then due to the Arctic melting the species of Polar Bear evolved into the new species known as “Merbears"
+                    which places itself in the same level in the ecosystem. Because of the adaptation, it’s one of the most powerful 
+                    living animals in the Antarctic region.
 
 
+                    <img class="auto" src="pictures/food.jpeg">
                 </div>
             </div>
         </div>
@@ -125,58 +204,41 @@
 
                 </div>
                 <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
-
-                    Sed vitae porttitor lectus, at blandit ex. Etiam eu odio vel urna feugiat vehicula. Vestibulum ut arcu sagittis, fringilla dui nec, pellentesque eros. Nunc efficitur nibh ornare nisl porta,
-                    vel imperdiet turpis varius. Integer viverra, nisi sit amet commodo tristique, enim ex varius ligula, quis facilisis risus eros ac ipsum. Suspendisse bibendum consectetur mi, a rhoncus quam sodales
-                    quis. Sed ullamcorper lectus sit amet massa facilisis elementum.
+                    <h1> Habitat and Population:</h1>
+                    <p> The habitat the Merbear lives in is in abundance of water as the former Arctic now part of the Arctic Ocean in cold 
+                    temperatures as they recovered back from the extreme heating. In this abundance of water there are many species of sea animals 
+                    spread from each other but the Merbear usually remains where it used to remain when they were polar bears. As for their 
+                    population they seem to remain at a plateau as even though they seem menacing in the sea, they still have conflict. One of 
+                    them being is that they are in a constant competition between the sharks in the arctic which seems to make their habitat very
+                    chaotic with.
+                    </p>
                 </div>
                 <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
-
+                    <h1> Biology </h1>
+                    <p> The Merbear’s main food source is hunting for Fish.  Some of the Merbear’s predator are Wolves and Walruses. They are 
+                    surrounded in the living environment in the arctic where the Mearbear will have to make the best out of. For instance, there 
+                    are 240 different fish species which is enough for Mearbear’s to consume.  In other words  
+                    </p>
 
                 </div>
             </div>
         </div>
         
-        <div class=" margin container">
+        <div class=" margins container">
             <div class="row">
                 <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
-                    <img src="pictures/water.png">
+                    <h1> Impact on Earth </h1>
+                    The creature killed sea animals and had a major impact on the environment. 
+                    Some of the ways how it had a major impact on the earth is killing several different fishes. 
 
-                </div>
-                <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
-
-                    Sed vitae porttitor lectus, at blandit ex. Etiam eu odio vel urna feugiat vehicula. Vestibulum ut arcu sagittis, fringilla dui nec, pellentesque eros. Nunc efficitur nibh ornare nisl porta,
-                    vel imperdiet turpis varius. Integer viverra, nisi sit amet commodo tristique, enim ex varius ligula, quis facilisis risus eros ac ipsum. Suspendisse bibendum consectetur mi, a rhoncus quam sodales
-                    quis. Sed ullamcorper lectus sit amet massa facilisis elementum.
-                    <br>
-                     <img src="pictures/flippers.jpeg">
-                </div>
-                <div class=" colors col">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor neque, porttitor in tincidunt sit amet, tempus quis nulla. Proin vitae mi lobortis ipsum tincidunt tempor.
-                    Nam vitae leo eget ante aliquet tincidunt. Nunc at neque nulla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut commodo, diam et dictum mollis,
-                    orci elit sagittis neque, at mollis nibh dui a libero. Morbi a vehicula sapien.
-
-                    <img src="pictures/food.jpeg">
                 </div>
             </div>
         </div>
         
-        <div class="container-fluid">
+        <div class="container-fluid footer-light bg-light">
             <div class="row">
-                <div class="color col">
-                    <h1> Learn more about the Merbear, check out more different topic on BBNEWS.com</h1>
+                <div class=" h-font color col">
+                    <h1> Learn more about the Merbear by checking out different topic on BBNEWS.com</h1>
                 </div>
             </div>
         </div>
