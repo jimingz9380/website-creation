@@ -14,32 +14,46 @@
                 background-color: #cccccc;
                 font-size: 20px;
             }
-
+            
+            
             .h-font{
                 font-size: 50px;
             }
-
+            .padding{
+                padding:0px 50px;
+            }
             .color{
                 background-color:pink;
                 padding: 10px;
             }
             .colors{
                 background:linear-gradient(grey 0%, skyblue 80%);
+                border: 2px solid red;
             }
+
+            
             .size {
                 width: 600px;
             }
             .margins{
                 margin-bottom: 20px;
-                padding: 20px;
+                padding-bottom: 20px;
             }
             .margin{
                 margin-bottom: 60px;
-                
-        
-            .auto {
-                width:100%;
-                height:100%;
+            }
+            .padding {
+                padding-top: 50px;
+            }
+            .w {
+                width:80%;
+                text-align: center;
+            }
+            .alpha {
+              color: yellow;
+              background-color: indigo;
+              padding:30px;
+              font-size: 50px;
             }
         </style>
 
@@ -75,24 +89,20 @@
                   <a class="nav-link disabled">Disabled</a>
                 </li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </nav>
         
-        <div id="carouselExampleControls" class="carousel slide container-fluid" data-bs-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="flipper.jpeg" class="d-block w-100" alt="...">
+              <img src="pictures/flippers.jpeg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="picture/water.png" class="d-block w-100" alt="...">
+              <img src="pictures/polar.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-              <img src="food.jpg" class="d-block w-100" alt="...">
+              <img src="pictures/food.jpeg" class="d-block w-100" alt="...">
             </div>
           </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -104,9 +114,11 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div class="container">
+        
+        
+        <div class="container-fluid">
             <div class="row">
-                <h1> Intro </h1>
+                <h1 class="padding alpha"> Introduction</h1>
             </div>
         </div>
         
@@ -124,14 +136,14 @@
                     </p>
                 </div>
                 <div class="col-xl-6 col-md-12">
-                    <img class="size" src="pictures/polar.jpg">
+                    <img class="rotate" src="">
                 </div>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
-                <h1 class="h-font"> Etymology (Origin)</h1>
+                <h1 class="h-font alpha"> Etymology (Origin)</h1>
             </div>
         </div>
 
@@ -148,17 +160,13 @@
                     sea animals. This lead to a gradual change in these polar bears which from natural selection change them to what you see as a 
                     Merbear.
 
-
-                </div>
-
-
                 </div>
             </div>
         </div>
         
-         <div class="container">
+         <div class="container-fluid">
             <div class="row">
-                <h1 class="h-font"> History and Evolution</h1>
+                <h1 class="h-font alpha"> History and Evolution</h1>
             </div>
         </div>
         
@@ -199,11 +207,7 @@
         
         <div class=" margins container">
             <div class="row">
-                <div class=" col">
-                    
-                    <img src="#">
-
-                </div>
+                
                 <div class=" colors col">
                     <h1> Habitat and Population:</h1>
                     <p> The habitat the Merbear lives in is in abundance of water as the former Arctic now part of the Arctic Ocean in cold 
@@ -220,6 +224,7 @@
                     surrounded in the living environment in the arctic where the Mearbear will have to make the best out of. For instance, there 
                     are 240 different fish species which is enough for Mearbear’s to consume.  In other words  
                     </p>
+                <img src="pictures/polar.jpg">
 
                 </div>
             </div>
@@ -229,21 +234,23 @@
             <div class="row">
                 <div class=" colors col">
                     <h1> Impact on Earth </h1>
-                    The creature killed sea animals and had a major impact on the environment. 
-                    Some of the ways how it had a major impact on the earth is killing several different fishes. 
-
+                    The Merbear has a great impact on the current Arctic ecosystem. One of the most common fishes that appears there are cods and sea animals such as whales and seals depend on it. 
+                    The issue now is that Merbears like to hunt down whales and seals which makes them a threat to them. Since the e whales and seals are being hunted down and Merbears are a very powerful species.
+                    This causes the cod population to overgrow and infest the arctic oceans. In other words, the Cod population is going to increase rapidly and the whale/seal is going to be damaged.
                 </div>
             </div>
         </div>
+
         
-        <div class="container-fluid footer-light bg-light">
+        <div class="container-fluid navbar-light bg-light">
             <div class="row">
                 <div class=" h-font color col">
                     <h1> Learn more about the Merbear by checking out different topic on BBNEWS.com</h1>
                 </div>
             </div>
         </div>
-
+        
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
